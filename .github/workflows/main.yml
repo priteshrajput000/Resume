@@ -18,7 +18,10 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18' # Use your project's required Node.js version
+          node-version: '20' # Use your project's required Node.js version
+
+      - name: Clean node_modules
+        run: rm -rf node_modules package-lock.json
 
       # Step 3: Install dependencies
       - name: Install dependencies
