@@ -105,14 +105,14 @@ function App() {
               location="Gurgaon, IN"
               projects={["HumanFirewall", "CitizenFirewall", "Email remediator"]}
               achievements={[
-                "Implemented log rotation for Node based processes with logs stored in S3 bucket",
-                "Set up Prometheus and Grafana to ensure application uptime and performance",
-                "Configured custom alerting rules in Prometheus to address infrastructure and application issues",
+                "Implemented log rotation for Node based processes with logs stored in S3 bucket.",
+                "Set up Prometheus and Grafana to ensure application uptime and performance.",
+                "Configured custom alerting rules in Prometheus to address infrastructure and application issues.",
                 "Integrated Node Exporter for detailed server performance metrics, enhancing visibility into CPU, memory, disk, and network usage.",
-                "Configured security settings, implemented backup strategies, and performed regular system audits to maintain server integrity",
+                "Configured security settings, implemented backup strategies, and performed regular system audits to maintain server integrity.",
                 "Managed and optimised servers, including AWS EC2 instances with an average CPU utilisation of 60%.",
-                "Implemented PagerDuty alerting system to notify teams of incidents, reducing mean time to recovery",
-                "Implemented cloud cost governance using AWS Cost Anomaly Detection and AWS Budgets"
+                "Implemented PagerDuty alerting system to notify teams of incidents, reducing mean time to recovery.",
+                "Implemented cloud cost governance using AWS Cost Anomaly Detection and AWS Budgets."
               ]}
             />
             
